@@ -121,8 +121,9 @@ p {
 }
 
 .first_sect{
-    margin: 10px 40px 20px;
+    margin: 10px 200px 20px;
     padding:20px;
+  
 }
 
 
@@ -153,8 +154,9 @@ hr .button {
 	padding:20px;
 }
 
+
 .third_sect{
-    margin: 10px 10px 10px 20px;
+    margin: 10px 200px 20px;
 	padding:20px;
 }
 
@@ -255,9 +257,15 @@ hr .button {
     padding-right: 0;
 }
 
+.d_bottom {
+    margin:10px 200px 20px;
+}
+
+
 footer {
     width: 100%;
     background: black;
+    margin:10px 200px 20px;
 }
 
 footer nav {
