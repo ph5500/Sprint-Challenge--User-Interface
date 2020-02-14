@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -66,10 +67,39 @@ p {
     line-height: 1.4;
 }
 
+.p_1 {
+    width:350px;
+}
+
+.p_2 {
+    width:350px;
+}
+
+.p_3 {
+    width:350px;
+}
+
+.p_4{
+    width:350px;
+}
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 0 40px auto;
 }
+
+.nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color:purple;
+        font-size:15px;
+        margin:10px;
+    }
+
+    .jumbo-about.png{
+        width:100vw;
+    }
 
 .top-content {
     display: flex;
@@ -85,6 +115,99 @@ p {
     padding-bottom: 20px;  
 }
 
+.first_pair{
+    display:flex;
+	flex-direction:row;
+}
+
+.first_sect{
+    margin: 10px 40px 20px;
+    padding:20px;
+}
+
+
+
+hr .button_1{
+    border:1px dotted black;
+}
+
+hr .button_2{
+    border:1px dotted black;
+}
+
+hr .button_3 {
+    border:1px dotted black;
+}
+
+hr .button {
+    border:1px dotted black;
+}
+
+.second_pair{
+    display:flex;
+    flex-direction:row;
+}
+
+.second_sect{
+    margin: 10px 10px 10px 20px;
+	padding:20px;
+}
+
+.third_sect{
+    margin: 10px 10px 10px 20px;
+	padding:20px;
+}
+
+.fourth_sect{
+    margin: 10px 10px 10px 20px;
+	padding:20px;
+}
+
+.button_1{
+    background-color:white;
+	text-align:center;
+	padding: 20x 10px 10px 10px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+}
+
+.button_2{
+    background-color:white;
+	text-align:center;
+	padding: 20x 10px 10px 10px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+
+}
+
+
+.button_3{
+    background-color:white;
+	text-align:center;
+	padding: 20x 10px 10px 10px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+}
+
+
+.button_4 {
+    background-color:white;
+	text-align:center;
+	padding: 20x 10px 10px 10px;
+	border: 1px solid black;
+	width:100px;
+	margin: 20px;
+}
+
+
+
+.second_sect{
+    margin: 10px 10px 10px 20px;
+	padding:20px;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -100,6 +223,12 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.middle-content .boxes .box_1 .box {
+    background: teal;
+}
+
+
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -144,3 +273,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About page code below */
+
+.logo {
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+
+.nav_bar {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color:purple;
+        font-size:15px;
+        margin:10px;
+    }
+
+hr {
+    border: 1px dotted black;
+}
+
