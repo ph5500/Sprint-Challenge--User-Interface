@@ -85,10 +85,10 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 40px auto;
+    margin: 0 0px auto;
 }
 
-.nav{
+nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -97,9 +97,9 @@ p {
         margin:10px;
     }
 
-    .jumbo-about.png{
-        width:100vw;
-        margin: 10px 200px 20px;
+    .jumbo_img{
+        width:100;
+        margin: 10px 0px 10px 450px;
         
     }
 
@@ -124,17 +124,18 @@ p {
 }
 
 .text-container_1 {
-    margin: 10px 200px 5px 10px;
+    margin: auto;
 }
 
 .text-container_2{
-    margin: 10px 0px 5px 200px;
+    margin: auto;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     margin: 10px 50px 5px;
+    width: 100%;
 }
 
 .middle-content h2 {
@@ -147,6 +148,9 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 85vw;
+    margin:10px 85px 20px;
+    
 }
 
 .middle-content .boxes .box_1 .box {
@@ -155,7 +159,8 @@ p {
 
 
 .middle_group {
-    /*width:100%;*/
+    
+    
     /*margin:10px 20px 20px;*/
     /*display:flex;*/
     /*align-items: center;*/
@@ -175,8 +180,9 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 10px 180px 20px;
     justify-content: space-around;
+    width: 75vw;
 }
 
 .bottom-content .text-container {
@@ -193,9 +199,9 @@ p {
 
 
 footer {
-    width: 100%;
+    width: 80vw;
     background: black;
-    margin:10px 200px 20px;
+    margin:10px 150px 20px;
 }
 
 footer nav {
@@ -210,27 +216,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+  
 }
 
 
 /* About page code below */
 
-.logo {
-    position: absolute;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
+.logo_1 {
+    float:left
+    
   }
+
+  .logo{
+    margin:  10px 0 10 20px;
+  }
+
+ 
 
 
 .nav_bar {
-    display: flex;
+        display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        color:purple;
+        justify-content: space-between;
+        height:2%
+        width:2%;
         font-size:15px;
-        margin:10px;
+        margin:10px 600px 10px 30px;
     }
+
+.about_stuff{
+    margin: 10px 150px 10px;
+    width: 50vw;
+}
 
 hr {
     border: 1px dotted black;
